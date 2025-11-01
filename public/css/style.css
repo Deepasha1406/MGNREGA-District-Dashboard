@@ -1,0 +1,331 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8fff9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e8f5e9;
+  padding: 10px 30px;
+  border-bottom: 2px solid #4caf50;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.state-info {
+  text-align: right;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background: #e0f2f1;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  border: 1px solid #4caf50;
+  border-radius: 6px;
+  padding: 8px 15px;
+  font-weight: bold;
+}
+
+.navbar a.active {
+  background: #4caf50;
+  color: #fff;
+}
+
+/* Main Section */
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.container h2 {
+  text-align: left;
+  font-size: 20px;
+  color: #222;
+}
+
+.search-box {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* District cards */
+.district-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.district-card {
+  background: #f1fff1;
+  border: 1px solid #c8e6c9;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.district-card:hover {
+  background: #c8e6c9;
+  transform: scale(1.03);
+}
+
+.district-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #2e7d32;
+}
+
+.district-card p {
+  color: #555;
+  margin-top: 5px;
+}
+
+.result-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.result-header {
+  position: relative;
+}
+
+.result-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.result-header p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.back-link {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #007A3D;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.performance-card {
+  background: linear-gradient(135deg, #F59E0B, #FBBF24);
+  color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  margin: 2rem auto;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.performance-card .icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.performance-card h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.performance-card h3 {
+  font-size: 1.4rem;
+  margin: 0.3rem 0;
+}
+
+.performance-card p {
+  font-size: 1rem;
+}
+
+.performance-details {
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.performance-details ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.performance-details li {
+  margin: 0.6rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* ---------- Home Page Styling ---------- *//* ---------- Home Page Styling ---------- */
+.home-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f6fff8;
+}
+
+.intro-section {
+  background-color: #e6f8e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-left: 5px solid #1a531b;
+}
+
+.intro-section h2 {
+  color: #1a531b;
+  margin-bottom: 10px;
+}
+
+.intro-section p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.eng-text {
+  color: #555;
+  font-style: italic;
+}
+
+.home-actions {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.btn-primary {
+  background-color: #198754;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #146c43;
+}
+
+.how-to-use {
+  background-color: #e8f0ff;
+  border-radius: 10px;
+  padding: 25px;
+  border-left: 5px solid #0d6efd;
+}
+
+.how-to-use h3 {
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+.how-to-use ol {
+  margin-left: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.how-to-use li {
+  margin-bottom: 10px;
+}
+
+/* ---------- Footer Styling ---------- */
+.main-footer {
+  background-color: #1a531b;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.main-footer p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.main-footer a {
+  color: #f3f3f3;
+  text-decoration: underline;
+}
+
+.main-footer a:hover {
+  color: #d4edda;
+}
+
+.performance-box {
+  background: #f9fff9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.box {
+  background: #e8f5e9;
+  border: 1px solid #c8e6c9;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #2e7d32;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.box:hover {
+  background: #dcedc8;
+  transform: scale(1.03);
+  transition: 0.2s;
+}

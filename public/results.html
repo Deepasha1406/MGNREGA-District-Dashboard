@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MGNREGA District Dashboard | Results</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="logo-section">
+      <h1>MGNREGA District Dashboard</h1>
+      <p>Track your district’s job guarantee performance</p>
+    </div>
+    <div class="state-info">
+      <p>राजस्थान | Rajasthan</p>
+      <small>Last updated: <span id="last-updated">Loading...</span></small>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="/">🏠 होम | Home</a>
+    <a href="/district">📍 जिले | Districts</a>
+    <a href="/results" class="active">📊 परिणाम | Results</a>
+  </nav>
+
+  <!-- Main content -->
+  <main class="container result-container">
+    <div class="result-header">
+      <h2>जिला प्रदर्शन | District Performance</h2>
+      <p>MGNREGA Live Performance Data</p>
+      <a href="/district" class="back-link">← वापस जाएं | Go Back</a>
+    </div>
+
+    <div id="loading">⏳ Loading data...</div>
+    <div id="result-data" style="display: none;"></div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <p>
+      © 2025 MGNREGA District Dashboard | सभी अधिकार सुरक्षित |
+      <br><br>
+      <small>यह डेटा केवल सूचनात्मक उद्देश्यों के लिए है।</small><br>
+      <small>This data is for informational purposes only.</small>
+    </p>
+  </footer>
+
+  <!-- JS Script -->
+  <script src="/js/results.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MGNREGA District Dashboard | Districts</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="logo-section">
+      <div>
+        <h1>MGNREGA District Dashboard</h1>
+        <p>Track your district’s job guarantee performance</p>
+      </div>
+    </div>
+    <div class="state-info">
+      <p>उत्तर प्रदेश | Uttar Pradesh</p>
+      <small>Last updated: 31/10/2025 10:05 pm</small>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="/">🏠 होम | Home</a>
+    <a href="/district" class="active">📍 जिले | Districts</a>
+    <a href="/results">📊 परिणाम | Results</a>
+  </nav>
+
+  <!-- Main content -->
+  <main class="container">
+    <h2>अपना जिला चुनें | <span>Select Your District</span></h2>
+
+    <div class="search-box">
+      <input type="text" id="search" placeholder="जिले का नाम खोजें | Search district name...">
+    </div>
+
+    <div class="district-grid" id="district-list">
+      <div class="district-card"><h3>आगरा</h3><p>Agra</p></div>
+      <div class="district-card"><h3>अलीगढ़</h3><p>Aligarh</p></div>
+      <div class="district-card"><h3>अम्बेडकर नगर</h3><p>Ambedkar Nagar</p></div>
+      <div class="district-card"><h3>अमेठी</h3><p>Amethi</p></div>
+      <div class="district-card"><h3>अमरोहा</h3><p>Amroha</p></div>
+      <div class="district-card"><h3>औरैया</h3><p>Auraiya</p></div>
+      <div class="district-card"><h3>अयोध्या</h3><p>Ayodhya</p></div>
+      <div class="district-card"><h3>आज़मगढ़</h3><p>Azamgarh</p></div>
+      <div class="district-card"><h3>बदायूं</h3><p>Badaun</p></div>
+      <div class="district-card"><h3>बागपत</h3><p>Baghpat</p></div>
+      <div class="district-card"><h3>बहराइच</h3><p>Bahraich</p></div>
+      <div class="district-card"><h3>बलिया</h3><p>Ballia</p></div>
+      <div class="district-card"><h3>बलरामपुर</h3><p>Balrampur</p></div>
+      <div class="district-card"><h3>बांदा</h3><p>Banda</p></div>
+      <div class="district-card"><h3>बाराबंकी</h3><p>Barabanki</p></div>
+      <div class="district-card"><h3>बरेली</h3><p>Bareilly</p></div>
+      <div class="district-card"><h3>बस्ती</h3><p>Basti</p></div>
+      <div class="district-card"><h3>भदोही</h3><p>Bhadohi</p></div>
+      <div class="district-card"><h3>बिजनौर</h3><p>Bijnor</p></div>
+      <div class="district-card"><h3>बुलंदशहर</h3><p>Bulandshahr</p></div>
+      <div class="district-card"><h3>चित्रकूट</h3><p>Chitrakoot</p></div>
+      <div class="district-card"><h3>देवरिया</h3><p>Deoria</p></div>
+      <div class="district-card"><h3>एटा</h3><p>Etah</p></div>
+      <div class="district-card"><h3>एटावा</h3><p>Etawah</p></div>
+      <div class="district-card"><h3>फर्रुखाबाद</h3><p>Farrukhabad</p></div>
+      <div class="district-card"><h3>फतेहपुर</h3><p>Fatehpur</p></div>
+      <div class="district-card"><h3>फिरोजाबाद</h3><p>Firozabad</p></div>
+      <div class="district-card"><h3>गौतम बुद्ध नगर</h3><p>Gautam Buddh Nagar</p></div>
+      <div class="district-card"><h3>गाज़ियाबाद</h3><p>Ghaziabad</p></div>
+      <div class="district-card"><h3>गाजीपुर</h3><p>Ghazipur</p></div>
+      <div class="district-card"><h3>गोंडा</h3><p>Gonda</p></div>
+      <div class="district-card"><h3>गोरखपुर</h3><p>Gorakhpur</p></div>
+      <div class="district-card"><h3>हमीरपुर</h3><p>Hamirpur</p></div>
+      <div class="district-card"><h3>हापुड़</h3><p>Hapur</p></div>
+      <div class="district-card"><h3>हरदोई</h3><p>Hardoi</p></div>
+      <div class="district-card"><h3>हाथरस</h3><p>Hathras</p></div>
+      <div class="district-card"><h3>जालौन</h3><p>Jalaun</p></div>
+      <div class="district-card"><h3>जौनपुर</h3><p>Jaunpur</p></div>
+      <div class="district-card"><h3>झांसी</h3><p>Jhansi</p></div>
+      <div class="district-card"><h3>कानपुर नगर</h3><p>Kanpur Nagar</p></div>
+      <div class="district-card"><h3>कानपुर देहात</h3><p>Kanpur Dehat</p></div>
+      <div class="district-card"><h3>कासगंज</h3><p>Kasganj</p></div>
+      <div class="district-card"><h3>कौशाम्बी</h3><p>Kaushambi</p></div>
+      <div class="district-card"><h3>कुशीनगर</h3><p>Kushinagar</p></div>
+      <div class="district-card"><h3>ललितपुर</h3><p>Lalitpur</p></div>
+      <div class="district-card"><h3>लखनऊ</h3><p>Lucknow</p></div>
+      <div class="district-card"><h3>महाराजगंज</h3><p>Maharajganj</p></div>
+      <div class="district-card"><h3>महोबा</h3><p>Mahoba</p></div>
+      <div class="district-card"><h3>मैनपुरी</h3><p>Mainpuri</p></div>
+      <div class="district-card"><h3>मथुरा</h3><p>Mathura</p></div>
+      <div class="district-card"><h3>मऊ</h3><p>Mau</p></div>
+      <div class="district-card"><h3>मेरठ</h3><p>Meerut</p></div>
+      <div class="district-card"><h3>मिर्जापुर</h3><p>Mirzapur</p></div>
+      <div class="district-card"><h3>मोरादाबाद</h3><p>Moradabad</p></div>
+      <div class="district-card"><h3>मुजफ्फरनगर</h3><p>Muzaffarnagar</p></div>
+      <div class="district-card"><h3>पीलीभीत</h3><p>Pilibhit</p></div>
+      <div class="district-card"><h3>प्रतापगढ़</h3><p>Pratapgarh</p></div>
+      <div class="district-card"><h3>प्रयागराज</h3><p>Prayagraj</p></div>
+      <div class="district-card"><h3>रायबरेली</h3><p>Rae Bareli</p></div>
+      <div class="district-card"><h3>रामपुर</h3><p>Rampur</p></div>
+      <div class="district-card"><h3>सहारनपुर</h3><p>Saharanpur</p></div>
+      <div class="district-card"><h3>संभल</h3><p>Sambhal</p></div>
+      <div class="district-card"><h3>संत कबीर नगर</h3><p>Sant Kabir Nagar</p></div>
+      <div class="district-card"><h3>संत रविदास नगर</h3><p>Sant Ravidas Nagar</p></div>
+      <div class="district-card"><h3>शाहजहाँपुर</h3><p>Shahjahanpur</p></div>
+      <div class="district-card"><h3>श्रावस्ती</h3><p>Shravasti</p></div>
+      <div class="district-card"><h3>सिद्धार्थनगर</h3><p>Siddharthnagar</p></div>
+      <div class="district-card"><h3>सीतापुर</h3><p>Sitapur</p></div>
+      <div class="district-card"><h3>सोनभद्र</h3><p>Sonbhadra</p></div>
+      <div class="district-card"><h3>सुल्तानपुर</h3><p>Sultanpur</p></div>
+      <div class="district-card"><h3>उन्नाव</h3><p>Unnao</p></div>
+      <div class="district-card"><h3>वाराणसी</h3><p>Varanasi</p></div>
+    </div>
+  </main>
+
+  <script src="/js/script.js"></script>
+
+    <!-- Footer -->
+  <footer class="main-footer">
+    <p>
+      © 2025 MGNREGA District Dashboard | सभी अधिकार सुरक्षित |
+      <br><br>
+      <p>यह डेटा केवल सूचनात्मक उद्देश्यों के लिए है।</p>
+      <p>This data is for informational purposes only.</p>
+    </p>
+  </footer>
+</body>
+</html>
+
+</body>
+</html>
+
+
